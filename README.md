@@ -24,12 +24,12 @@ This script fully supports Debian 13 Trixie, including the testing release. The 
 ## Quick Start
 
 ```bash
-# Download and run the installer
-sudo bash install.sh
+curl -O https://raw.githubusercontent.com/bountyyfi/wireguard-install-script/refs/heads/main/install.sh && sudo bash install.sh
 ```
 
 ## Features
 
+- **No third-party dependencies**: Self-contained script with no external connections
 - **Interactive setup**: Guided installation with prompts for configuration
 - **Client management**: Add and remove VPN clients easily
 - **DNS options**: Choose from popular DNS providers or specify custom resolvers
